@@ -1,10 +1,10 @@
-import * as express from 'express';
+import express from 'express';
 
-import * as cors from 'cors';
-import * as morgan from 'morgan';
-import * as bodyParser from 'body-parser';
-import * as helmet from 'helmet';
-import * as compression from 'compression';
+import cors from 'cors';
+import morgan from 'morgan';
+import bodyParser from 'body-parser';
+import helmet from 'helmet';
+import compression from 'compression';
 
 import mainRoutes from './routes/main';
 import resourceRoutes from './routes/resource';
