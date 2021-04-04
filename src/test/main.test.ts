@@ -1,4 +1,4 @@
-import * as resoureController from '../controller/resource';
+import resoureController from '../controller/resource';
 
 describe('main.test', () => {
   it('updateRemoteApiTest controller success test', async () => {
